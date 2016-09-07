@@ -16,8 +16,8 @@ export default function robotMovementReudcer( oldState, time ) {
     // Merge the old state with the updated properties
     return {
         ...oldState,
-        robotPosition: new Vector3( positionScale * Math.sin( time * positionSpeed ) + positionOffset, 0, 0 ),
-        robotRotation: new Euler( rotationScale * Math.sin( time * rotationSpeed ), 0, 0 )
+        robotPosition: new Vector3( 0, 0, positionScale * Math.sin( time * positionSpeed ) + positionOffset ),
+        robotRotation: new Euler( 0, 0, rotationScale * Math.sin( time * rotationSpeed ) )
     };
     
 }

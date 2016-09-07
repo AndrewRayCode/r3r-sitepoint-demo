@@ -4,7 +4,7 @@ This is demo code to accompany the SitePoint article "Building a Game with React
 
 ```
 npm install
-npm run
+npm start
 ```
 
 Then open [http://localhost:8080/webpack-dev-server/index.html](http://localhost:8080/webpack-dev-server/index.html)

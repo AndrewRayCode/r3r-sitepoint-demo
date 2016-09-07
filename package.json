@@ -24,12 +24,12 @@
     "file-loader": "^0.8.5",
     "json-loader": "^0.5.4",
     "node-sass": "^3.7.0",
-    "react": "^15.1.0",
+    "react": "^15.3.1",
     "react-dom": "^15.1.0",
-    "react-three-renderer": "^2.0.1",
+    "react-three-renderer": "^2.3.1",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
-    "three": "^0.76.1"
+    "three": "^0.79.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
